@@ -17,6 +17,7 @@ button{
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    user-select: none;
 }
 
 .frame{
@@ -27,7 +28,7 @@ button{
     border-radius: 10px;
 
 }
-.buttons {
+.buttonArea {
     display: flex;
     flex-wrap: wrap;
     height: 200px;
@@ -42,6 +43,9 @@ button{
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 10px;
+    text-align: right;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 .tag{
@@ -52,4 +56,10 @@ button{
     text-align: right;
     width: 100px;
     font-style: oblique;
+    user-select: none;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
 }
