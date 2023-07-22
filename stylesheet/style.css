@@ -1,0 +1,55 @@
+body{
+    margin: 25vh;
+    background-image:url(/resources/bg.jpg);
+    background-size: cover;
+}
+
+button{
+    background-color: #b99976;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.frame{
+    background-color: #3C2A21;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+
+}
+
+.dispScreen{
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.tag{
+    font-size: 30px;
+    font-weight:900;
+    font-family:'Lucida Sans',Verdana;
+    align-self:flex-end;
+    text-align: right;
+    width: 100px;
+    font-style: oblique;
+}
